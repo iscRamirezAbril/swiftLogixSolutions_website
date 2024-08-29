@@ -7,33 +7,136 @@
     <link rel="stylesheet" href="css/font-awesome.css" />
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/styles.css" />
-    <title>Bootstrap 5 Simple Starter</title>
+    <title>SwiftLogix Solutions</title>
   </head>
   <body>
-    <div
-      class="container d-flex flex-column align-items-center justify-content-center text-center vh-100 w-50"
-    >
-      <h1 class="text-primary">
-        <i class="fa fa-star"></i> Bootstrap 5 Simple Starter
-      </h1>
-      <p>
-        This is a boilerplate for creating and customizing Bootstrap 5 projects.
-      </p>
-      <p class="bg-light p-2">
-        Look at
-        <strong>"node_modules/bootstrap/dist/scss/_variables.scss"</strong> to
-        see the variables that you can overwrite in your
-        <strong>"scss/bootstrap.scss"</strong> file. For any custom styles, add
-        them to the "scss/styles.scss" file. Do not edit the CSS files directly.
-      </p>
+    <!-- NAVIGATION -->
+    <!-- Navigation Start -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+        <img src="images/swiftLogixLogo.png" alt="" width="124" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#details">Details</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#method">The SwiftLogix method</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="btn btn-outline-secondary btn-sm">Contact</a>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navigation End -->
 
-      <p>
-        Build or watch your Sass files with the following commands:
-        <pre>npm run sass:build</pre>
-        <pre>npm run sass:watch</pre>
-      </p>
-    </div>
+    <!-- HEADER -->
+    <!-- Header Start -->
+    <header class="header vh-100 text-center position-relative">
+      <div class="col-md-8 offset-md-2 text-container position-relative d-flex flex-column justify-content-center align-items-center h-100">
+        <h1 class="display-3 fw-bold text-white">Agility and Accuracy in <span class="text-primary">Logistics</span></h1>
+        <p class="lead text-white">Efficient, secure and customized logistics solutions for companies of all sizes.</p>
 
+        <a href="#about" class="btn btn-secondary btn-md mt-3">
+          <div class="d-flex">
+            <div class="me-3">
+              <i class="fas fa-chevron-down">
+              </i>
+            </div>
+
+            <div class="text-start">
+              <span>Learn more</span>
+            </div>
+          </div>
+        </a>
+
+        <!-- PARTNERS -->
+        <!-- Partners Start -->
+        <section id="partners" class="partners pt-5 overflow-hidden">
+          <div class="row justify-content-center">
+            <!-- Partner 1 -->
+            <div class="col-md-2 col-sm-6 text-center">
+              <img src="images/partner1.png"/>
+            </div>
+            <!-- Partner 1 -->
+            <!-- Partner 2 -->
+            <div class="col-md-2 col-sm-6 text-center">
+              <img src="images/partner2.png"/>
+            </div>
+            <!-- Partner 2 -->
+            <!-- Partner 3 -->
+            <div class="col-md-2 col-sm-6 text-center">
+              <img src="images/partner3.png"/>
+            </div>
+            <!-- Partner 3 -->
+            <!-- Partner 4 -->
+            <div class="col-md-2 col-sm-6 text-center">
+              <img src="images/partner4.png"/>
+            </div>
+            <!-- Partner 4 -->
+            <!-- Partner 5 -->
+            <div class="col-md-2 col-sm-6 text-center">
+              <img src="images/partner5.png"/>
+            </div>
+            <!-- Stat 5 -->
+          </div>
+        </section>
+        <!-- Partners End -->
+      </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- ABOUT -->
+    <!-- About Start -->
+    <section class="about py-4 bg-light" id="about">
+      <div class="container">
+        <!-- Row 1 -->
+        <div class="row">
+          <!-- Column 1 -->
+          <div class="col-lg-6">
+            <img src="images/aboutImage.png" class="img-fluid mb-4">
+          </div>
+          <!-- Column 1 -->
+          <!-- Column 2 -->
+          <div class="col-lg-6 d-flex flex-column justify-content-center">
+            <h2>About us</h2>
+            <hr class="hr-heading"/>
+            <p>
+              Our extensive collection of training videos is designed to help
+              you enhance your skills and excel in your chosen field. Whether
+              you're looking to improve your technical expertise or develop
+              essential soft skills, our videos provide valuable insights and
+              practical knowledge.
+            </p>
+            <p>
+              With expert instructors and comprehensive content, you'll gain the
+              confidence and competence to tackle challenges and achieve
+              success.
+            </p>
+          </div>
+          <!-- Column 2 -->
+        </div>
+        <!-- Row 1 -->
+      </div>
+    </section>
+    <!-- About End -->
+     
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
   </body>
