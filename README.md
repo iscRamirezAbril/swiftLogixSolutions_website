@@ -1,6 +1,6 @@
 # SwiftLogix Solutions Website
 > Bootstrap Website for a logistic company that offers efficient, secure and customized logistics solutions
-> Live demo [_here_]().
+> Live demo [_here_](https://iscramirezabril.github.io/swiftLogixSolutions_website/).
 
 
 ## Table of Contents
@@ -16,18 +16,17 @@
 
 
 ## General Information
-Bootstrap Business website for software solutions, but could easily be changed to fit any business. Dark-themed design with modals and other features.
+Bootstrap Website for a logistic company that offers efficient, secure and customized logistics solutions for companies of all sizes. It is a very light business theme with a clean design.
 
 
 ## Technologies Used
-![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Boostrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white) ![Font Awesome](https://img.shields.io/badge/Font_Awesome-339AF0?style=for-the-badge&logo=fontawesome&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Node JS](https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![ChatGPT](https://img.shields.io/badge/ChatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Boostrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white) ![Font Awesome](https://img.shields.io/badge/Font_Awesome-339AF0?style=for-the-badge&logo=fontawesome&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Node JS](https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![ChatGPT](https://img.shields.io/badge/ChatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white) ![GithubPages](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=GitHub%20Pages&logoColor=white)
 
 
 ## Features
 - Responsive design
 - Scroll Reveal Effects
 - Navbar scroll effect
-- Pricing grid
 - Font awesome icons
 
 ## Screenshots
@@ -63,7 +62,7 @@ To add your own custom styles, use the `styles.scss` file.
 
 
 ## Project Status
-Project is: _in progress_
+Project is: _complete_
 
 
 ## Contact
